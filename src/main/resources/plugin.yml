@@ -1,0 +1,7 @@
+main: CustomExplosion
+name: CustomExplosion
+version: 1.0.0
+description: A plugin for overriding explosion events.
+load: POSTWORLD
+api-version: 1.16
+author: MrFlyingPizza
