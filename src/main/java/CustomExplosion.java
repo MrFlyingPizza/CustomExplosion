@@ -18,5 +18,7 @@ public class CustomExplosion extends JavaPlugin {
         super.onEnable();
         System.out.println("Custom Explosion enabled.");
         getServer().getPluginManager().registerEvents(new ExplosionListener(), this);
+
+        this.getCommand("genplanet").setExecutor(new CommandGeneratePlanet());
     }
 }

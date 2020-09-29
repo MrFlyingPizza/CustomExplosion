@@ -23,7 +23,7 @@ public class ExplosionListener implements Listener {
 
         event.setCancelled(true);
 
-        double explosionPower = 3;
+        double explosionPower = 1;
         double xOffset, yOffSet, zOffset;
         for (Block block : event.blockList()) {
 

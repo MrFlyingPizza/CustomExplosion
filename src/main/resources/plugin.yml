@@ -5,3 +5,8 @@ description: A plugin for overriding explosion events.
 load: POSTWORLD
 api-version: 1.16
 author: MrFlyingPizza
+
+commands:
+  genplanet:
+    description: generate planet
+    usage: /<command> radius height numberofwaves waveheight
